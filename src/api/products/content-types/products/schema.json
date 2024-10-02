@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product",
+  "info": {
+    "singularName": "products",
+    "pluralName": "product",
+    "displayName": "Products"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "screen_size": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "harddisk": {
+      "type": "string"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "OS": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
